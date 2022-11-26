@@ -63,7 +63,7 @@ model VerificationToken {
 
 
 model Images {
- id   String  @unique
+ id   String  @id @unique
  tags String[]
  vote String
 }
